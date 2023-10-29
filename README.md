@@ -10,16 +10,8 @@ Docker es una plataforma de contenedores que facilita la creación, implementaci
 
 2.-Instalar WSL mediante comando desde [Wsl microsoft](https://learn.microsoft.com/en-us/windows/wsl/install).
 ```bash
-# Esto es un bloque de código de ejemplo
-$ git clone https://github.com/tu-usuario/tu-repositorio.git
-$ cd tu-repositorio
-$ git checkout -b nueva-rama
-$ git add .
-$ git commit -m "Agrega cambios"
-$ git push origin nueva-rama
+$ wsl install
+```
 
-
-## Empezando
-1. Clona este repositorio :point_right:
-   ```shell
-   git clone https://github.com/tuusuario/tuproyecto.git
+3.- Activamos la virtualización
+![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/233b5eaa-b395-459e-8247-0e1f00e83eee)
