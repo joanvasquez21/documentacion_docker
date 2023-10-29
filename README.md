@@ -7,7 +7,8 @@ Docker es una plataforma de contenedores que facilita la creación, implementaci
 
 ## Instalacion de docker y wsl2 
 1.-Asegúrate de tener Docker instalado antes de continuar. Puedes descargarlo desde [Docker's Website](https://docs.docker.com/desktop/install/windows-install/).
-2.-Instaar WSL mediante comando desde [Wsl microsoft](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+2.-Instalar WSL mediante comando desde [Wsl microsoft](https://learn.microsoft.com/en-us/windows/wsl/install).
 ## Empezando
 1. Clona este repositorio :point_right:
    ```shell
