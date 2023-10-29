@@ -17,3 +17,7 @@ $ wsl install
 ![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/233b5eaa-b395-459e-8247-0e1f00e83eee)
 
 ## Empezemos
+2.- `docker pull` :  se utiliza para descargar (o "extraer") una imagen de Docker desde un registro de imágenes, como el Docker Hub o un registro privado.
+```bash
+$ docker pull NOMBRE_DE_LA_IMAGEN
+```
