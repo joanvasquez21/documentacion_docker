@@ -1,4 +1,3 @@
-# documentacion_docker
 # Guía de Uso de Docker :whale:
 
 ¡Bienvenido a la guía de uso de Docker! :rocket:
