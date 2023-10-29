@@ -21,3 +21,7 @@ $ wsl install
 ```bash
 $ docker pull NOMBRE_DE_LA_IMAGEN
 ```
+* `docker container run`: se utiliza para crear y ejecutar un contenedor a partir de una imagen
+```bash
+$ docker container run NOMBRE_DE_LA_IMAGEN
+```
