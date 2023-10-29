@@ -15,3 +15,5 @@ $ wsl install
 
 3.- Activamos la virtualización
 ![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/233b5eaa-b395-459e-8247-0e1f00e83eee)
+
+## Empezemos
