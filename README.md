@@ -54,14 +54,18 @@ equipo, colocarle el nombre al contenedor de maria-db (--name maria-db) y defini
 
 ## Solucion 
 1.- Configuramos la base de datos de MariaDB en un contenedor Docker con las variables del ejercicio, utilizando como tag jammy
+
 ![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/5bda9980-d5b1-40c7-9604-7612aa932468)
 
-2.-Nos conectamos usando Table Plus 
+2.-Nos conectamos usando Table Plus
+
 ![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/a21fbdc4-e19a-4ad9-86fa-e7b348e74c97)
 
 3.- Utilizamos el query de creacion de tablas
+
 ![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/efe5974e-9d49-41d0-af3e-55018fbb7986)
 
 5.-Tenemos el contenedor
+
 ![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/fcb8151d-157a-498c-b661-13443d9d9a2a)
 
