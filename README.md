@@ -33,3 +33,7 @@ $ docker network create NOMBRE_DE_LA_RED
 ```bash
 $ docker network connect NOMBRE_DE_LA_RED ID_DEL_CONTENEDOR
 ```
+*`docker network inspect`: se utiliza para inspeccionar la red con los contenedores conectados.
+```bash
+$ docker network inspect NOMBRE_DE_LA_RED
+```
