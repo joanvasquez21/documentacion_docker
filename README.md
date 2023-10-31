@@ -21,7 +21,15 @@ $ wsl install
 ```bash
 $ docker pull NOMBRE_DE_LA_IMAGEN
 ```
-* `docker container run`: se utiliza para crear y ejecutar un contenedor a partir de una imagen
+* `docker container run`: se utiliza para crear y ejecutar un contenedor a partir de una imagen.
 ```bash
 $ docker container run NOMBRE_DE_LA_IMAGEN
+```
+*`docker network create`: se utiliza para crear una red personalizada en un entorno de contenedor.
+```bash
+$ docker network create NOMBRE_DE_LA_RED
+```
+*`docker network connect`: se utiliza para conectar contenedores.
+```bash
+$ docker network connect NOMBRE_DE_LA_RED ID_DEL_CONTENEDOR
 ```
