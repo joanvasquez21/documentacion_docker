@@ -38,6 +38,25 @@ $ docker network connect NOMBRE_DE_LA_RED ID_DEL_CONTENEDOR
 $ docker network inspect NOMBRE_DE_LA_RED
 ```
 
+## Networking container
+Son entornos virtuales que permiten que los contenedores se comuniquen entre sí y con otros recursos de red. Estas redes son lógicas y aíslan el tráfico de red de un conjunto de contenedores, lo que facilita la gestion de la comunicación.
+1.- Crear una red
+   
+![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/da09d56d-70df-4736-9aa5-5eba9e27e400)
+
+2.- Lista de los dos contenedores que vamos a conectar a la red
+
+![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/5bf5502b-b102-410f-98f0-c8d085ba0ac7)
+
+3.- Utilizamos los identificadores para conectarlos 
+
+![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/06a83d75-9397-42db-a04e-5c79522d8870)
+
+4.- Inspeccionar los contenedores conectados a la misma red
+
+![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/b6a66f07-0789-4bd9-85bb-56bdd125078e)
+
+
 ## Ejercicio:
 Montar la imagen de MariaDB con el tag jammy, publicar en el puerto 3309 del contenedor con el puerto 3306 de nuestro
 equipo, colocarle el nombre al contenedor de maria-db (--name maria-db) y definir las siguientes variables de entorno:
