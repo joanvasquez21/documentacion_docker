@@ -115,6 +115,9 @@ $ docker run -d \
 ## En este ejemplo:
 
 • Se crea un volumen llamado "mydata" utilizando docker volume create.
+
 • Un contenedor de MySQL se ejecuta con la opción -v mydata:/var/lib/mysql, lo que significa que el directorio /var/lib/mysql dentro del contenedor está vinculado al volumen "mydata".
+
 • Los datos de la base de datos MySQL se almacenan en el volumen "mydata", y estos datos persistirán incluso si el contenedor se detiene o se elimina.
+
 • Si necesitas ejecutar otro contenedor de MySQL o cualquier otro servicio que requiera acceso a esos datos, simplemente puedes vincularlo al mismo volumen "mydata", facilitando el intercambio de datos entre contenedores.
