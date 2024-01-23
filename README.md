@@ -103,7 +103,7 @@ Supongamos que estás ejecutando una base de datos en un contenedor Docker y des
 ```bash
 $ docker volume create mydata
 ```
-* `docker volume create mydata` : Ejecuta un contenedor de MySQL utilizando el volumen "mydata"
+# Ejecuta un contenedor de MySQL utilizando el volumen "mydata"
 ```bash
 $ docker run -d \
   --name mysql-container \
