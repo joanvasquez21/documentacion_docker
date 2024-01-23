@@ -88,3 +88,33 @@ equipo, colocarle el nombre al contenedor de maria-db (--name maria-db) y defini
 
 ![image](https://github.com/joanvasquez21/documentacion_docker/assets/70104624/fcb8151d-157a-498c-b661-13443d9d9a2a)
 
+## Volumenes
+## Introducción
+En Docker, un volumen es un mecanismo que permite persistir y compartir datos entre contenedores y el sistema host de una manera independiente del ciclo de vida del contenedor. Los volúmenes proporcionan una forma eficiente de manejar el almacenamiento de datos, permitiendo que los datos persistan incluso cuando el contenedor que los utiliza se detiene o se elimina.
+
+## Explicación sencilla:
+Un volumen en Docker es como una carpeta especial que puede contener datos y que está fuera del contenedor. Esta carpeta se puede compartir entre varios contenedores y mantiene sus datos incluso si el contenedor se apaga o se borra.
+
+## Ejemplo:
+Supongamos que estás ejecutando una base de datos en un contenedor Docker y deseas asegurarte de que los datos de la base de datos no se pierdan cuando el contenedor se detiene o se elimina. En lugar de almacenar los datos dentro del contenedor, puedes utilizar un volumen para mantener esos datos fuera del contenedor.
+
+# Creación de un volumen
+* `docker volume create mydata` : Se crea un volumen llamado "mydata"
+```bash
+$ docker volume create mydata
+```
+* `docker volume create mydata` : Ejecuta un contenedor de MySQL utilizando el volumen "mydata"
+```bash
+$ docker run -d \
+  --name mysql-container \
+  -e MYSQL_ROOT_PASSWORD=my-secret-pw \
+  -v mydata:/var/lib/mysql \
+  mysql:latest
+```
+
+## En este ejemplo:
+
+• Se crea un volumen llamado "mydata" utilizando docker volume create.
+• Un contenedor de MySQL se ejecuta con la opción -v mydata:/var/lib/mysql, lo que significa que el directorio /var/lib/mysql dentro del contenedor está vinculado al volumen "mydata".
+• Los datos de la base de datos MySQL se almacenan en el volumen "mydata", y estos datos persistirán incluso si el contenedor se detiene o se elimina.
+• Si necesitas ejecutar otro contenedor de MySQL o cualquier otro servicio que requiera acceso a esos datos, simplemente puedes vincularlo al mismo volumen "mydata", facilitando el intercambio de datos entre contenedores.
