@@ -121,3 +121,5 @@ $ docker run -d \
 • Los datos de la base de datos MySQL se almacenan en el volumen "mydata", y estos datos persistirán incluso si el contenedor se detiene o se elimina.
 
 • Si necesitas ejecutar otro contenedor de MySQL o cualquier otro servicio que requiera acceso a esos datos, simplemente puedes vincularlo al mismo volumen "mydata", facilitando el intercambio de datos entre contenedores.
+
+## 2 Parte
